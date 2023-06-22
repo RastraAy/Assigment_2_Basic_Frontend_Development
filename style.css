@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .student-portal {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .admin {
+    display: flex;
+    align-items: center;
+  }
+  
+  .admin-text {
+    font-size: 24px;
+    margin-right: 30px;
+    font-weight: bold;
+  }
+  
+  .admin img {
+    width: 70px;
+    height: 70px;
+  }
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: -1%;
+    margin: 20px;
+    grid-template-columns: auto;
+    gap: 1ms;
+    
+}
+
+.flexbox {
+    display: grid;
+    grid-auto-columns: 725px;
+    gap: 1ms;
+
+}
+
+.flexbox1 {
+    display: grid;
+    grid-auto-columns: auto;
+    margin-left: 725px;
+    margin-top: -135px;
+    gap: 1ms;
+
+}
+
+.list {
+    display: grid;
+    grid-auto-columns: auto;
+}
+
+input[type=date], [type=text],
+select {
+    display: grid;
+    grid-auto-columns: 600px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: solid;
+}
+
+
+input[type=submit] {
+    font-family: sans-serif;
+    font-size: 12px;
+    background: #272afb;
+    color: white;
+    border: white 3px solid;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.table-student {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 3;
+    }
+
+.delete-button {
+    color: #ee0e0e;
+    cursor: pointer;
+  }
